@@ -5,7 +5,7 @@ const userRoutes = require('./routes/route')
 const bodyParser = require('body-parser')
 
 const PORT = process.env.PORT || 3000
-const url = process.env.MONGO_DB || 'mongodb+srv://nastya:123456nastya@cluster0.y3xuf.mongodb.net/game_db'
+const url = process.env.MONGO_DB
 
 const app = express()
 
